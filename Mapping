@@ -1,0 +1,45 @@
+Mapped /sys/class readings for battery:
+
+/sys/class/power_supply/BAT0/
+
+/sys/class/power_supply/BAT0/alarm
+/sys/class/power_supply/BAT0/capacity
+
+/sys/class/power_supply/BAT0/charge_full
+- Last full charge in micro amp hour
+
+/sys/class/power_supply/BAT0/charge_full_design
+- Design full charge in micro amp hour
+
+/sys/class/power_supply/BAT0/charge_now
+/sys/class/power_supply/BAT0/current_avg
+/sys/class/power_supply/BAT0/current_now
+/sys/class/power_supply/BAT0/cycle_count
+/sys/class/power_supply/BAT0/manufacturer
+- Manufacturer of the battery
+
+/sys/class/power_supply/BAT0/model_name
+- Model name of the battery
+
+/sys/class/power_supply/BAT0/present
+- Guessing this is if the battery is attached/present or not
+
+/sys/class/power_supply/BAT0/status
+/sys/class/power_supply/BAT0/technology
+/sys/class/power_supply/BAT0/temp
+- Current battery temperature with format: 327 is 32.7c
+
+/sys/class/power_supply/BAT0/type
+- What type this is, "Battery"
+
+/sys/class/power_supply/BAT0/uevent
+- This file seems special because it updates everything I seem
+- to need for this, just how to actually extract the data in C
+- This could basically be the same as reading all the other files
+- but with only reading one file
+
+/sys/class/power_supply/BAT0/voltage_min_design
+/sys/class/power_supply/BAT0/voltage_now
+
+
+

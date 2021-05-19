@@ -1,0 +1,22 @@
+/sys/class/power_supply/BAT0/ layout on linux kernel 5.8 (linux mint 20.1) Macbook Air 2017
+
+capacity - Capacity calculated by linux
+charge_full - Current full charge in i think microamps
+charge_full_design - Full charge from factory i think microamps
+charge_now - Current charge in i think microamps
+current_avg - Average current in i think microamps
+current_now - Current current in i think microamps
+cycle_count - Cycle count
+manufacturer - Manufacturer of the battery
+model_name - Model name of the battery
+present - Whether the battery is present
+status - Current status of battery (e.x. charging)
+technology - Technology the battery is built on (e.x. Li-ion)
+temp - Current temperature of the battery (e.x. 310 = 31.0c)
+type - Just says battery
+voltage_min_design - current voltage in i think microvolts
+voltage_now - minimum voltage the battery is designed for in i think microvolts
+
+/sys/class/power_supply/ADP1/
+
+online - 1 or 0 depending if charger is plugged in or not
